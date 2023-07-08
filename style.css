@@ -1,0 +1,1048 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2562D8;
+}
+
+.l-box{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: brown; */
+}
+
+.mid-p{
+    width: 50%;
+    height: 8%;
+    margin-left: 5vmax;
+/* border-radius: 0.5vmax; */
+display: flex;
+border: 2px solid white;
+justify-content: space-between;
+    background-color: #2562D8;
+}
+
+.mid-p button{
+    font-size: 0.9vmax;
+    /* border-radius: 0.5vmax; */
+    padding: 0 30px;
+    object-fit: cover;
+    border: none;
+    background-color: #4abce9;
+}
+
+.l-box h2{
+    margin-left: 5vmax;
+    font-size: 2vmax;
+    color: white;
+    letter-spacing: 0.1vmax;
+}
+
+.l-box h2 span:hover{
+    color: #FFC303;
+    cursor: none;
+    text-decoration: underline;
+}
+
+.l-box p{
+    margin-left: 5vmax;
+    font-size: 1vmax;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.1vmax;
+}
+
+.l-box h1{
+    margin-left: 5vmax;
+    font-size: 4vmax;
+    color: white;
+    letter-spacing: 0.1vmax;
+}
+
+.l-box span button{
+    font-size: 1.5vmax;
+    margin-left: 5vmax;
+    color: rgba(0, 0, 0, 0.682);
+    font-weight: 500;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 0.5vmax;
+    background-color: #FFC303;
+    padding: 0.7vmax 1.5vmax;
+}
+
+
+.r-box{
+    width: 55%;
+    height: 120%;
+    background-image: url(page1\ pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    z-index: 99;
+    background-position: center;
+    /* background-color: black; */
+}
+
+/* ============page1 end========================== */
+
+.page2{
+    width: 100%;
+    height: 100%;
+      background-color: #3d74df;
+}
+
+
+.main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+
+
+.main h1{
+    margin-top: 8vmax;
+    font-size: 2.5vmax;
+    color: white;
+    text-align: center;
+}
+
+.main img{
+    width: 58%;
+    height: 60%;
+    /* box-shadow: 5px 2px 10px black; */
+}
+
+.main h3{
+    font-size: 1.5vmax;
+    margin-top: -2vmax;
+    text-align: center;
+    color: white;
+}
+
+.main p{
+    font-size: 1vmax;
+    color: white;
+    text-align: center;
+    margin-top: 3vmax;   
+}
+
+.main span button{
+    padding: 0.8vmax 1.5vmax;
+    margin-top: 1vmax;
+    font-size: 1.2vmax;
+    font-weight: 700;
+    z-index: 99;
+    margin-top: 3vmax;
+    color: rgba(0, 0, 0, 0.705);
+    border-radius: 0.5vmax;
+    background-color: #FFC303;
+    box-shadow: 2px 3px 5px black;
+}
+
+/* ================page2 end ======================== */
+
+.page3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2562D8;
+}
+
+.l-block{
+    width: 35%;
+    height: 85%;
+    background-image: url(page\ 3\ pic.png);
+    background-repeat: no-repeat;
+object-fit: cover;
+background-position: center;
+}
+.r-block{
+    width: 40%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: #FFC303; */
+}
+
+.png{
+    width: 30%;
+    height: 30%;
+}
+
+.png p{
+   font-size: 1.3vmax;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.r-block h1{
+   color: white; 
+}
+
+.r-block p{
+    color: white;
+}
+
+
+
+.btns button{
+    padding: 0.2vmax 0.6vmax;
+    border-radius: 0.5vmax;
+    border: none;
+}
+
+
+span button{
+    font-size: 1.2vmax;
+    font-weight: 700;
+    padding: 0.8vmax 1.2vmax;
+    border-radius: 0.5vmax;
+    color: rgba(0, 0, 0, 0.618);
+    background-color: #FFC303;
+    box-shadow: 2px 3px 5px;
+}
+
+/* =========page3 end====================== */
+
+.page4{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2562D8;
+}
+
+.page4 h1{
+    font-size: 3vmax;
+    color: white;
+    text-align: center;
+}
+
+.page4 p{
+    font-size: 1vmax;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+/* ================page4 end ========================= */
+
+.page5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vmax;
+        background-color: #2562D8;
+}
+
+.page5 nav{
+    width: 50%;
+    height: 10%;
+    border-bottom: 2px solid #dadada;
+}
+
+.page5 nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.page5 nav ul li{
+    color: white;
+    font-weight: 100;
+    list-style-type: none;
+}
+
+.page5 nav ul li:hover{
+    color: yellowgreen;
+    cursor: pointer;
+    border-bottom: 2px solid #dadada;
+    transition: all ease 0.3sec;
+}
+
+.pic{
+    width: 70%;
+    height: 85%;
+    object-fit: cover;
+}
+
+.pic img{
+    width: 100%;
+    height: 90%;
+
+}
+
+/* =====================page 5 end========================= */
+
+.page6{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2562D8;
+
+}
+
+.logodiv{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 0.5vmax;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.lobo{
+    width: 17%;
+    height: 100%;
+       border-radius: 0.3vmax;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.lobo img{
+margin-top: 1vmax;
+}
+
+.m1{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center; 
+margin-left: 2vmax;
+   /* background-color: yellow; */
+}
+
+.m1 h1{
+    color: white;
+    font-size: 1.5vmax;
+}
+
+.m1 h1 a{
+    color: white;
+    text-decoration: none;
+ } 
+
+.m1 h1 a:hover{
+    background-color: #FFC303;
+    transition: all ease 0.4sec;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.m1 p{
+    color: white;
+    font-size: 0.5vmax;
+}
+
+.m2{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center; 
+    /* background-color: yellow; */
+}
+
+.nn a i{
+    color: white;
+    text-decoration: none;
+
+}
+
+.nn1 a i{
+    color: white;
+    text-decoration: none;
+
+}
+
+.nn a i:hover{
+    background-color: red;
+}
+
+.nn1 a i:hover{
+    background-color: black;
+}
+
+.m2 h1{
+    color: white;
+    font-size: 1.5vmax;
+}
+
+.m2 h1 a{
+    color: white;
+    text-decoration: none;
+ } 
+
+.m2 h1 a:hover{
+    background-color: #FFC303;
+    transition: all ease 0.4sec;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.m2 p{
+    color: white;
+    font-size: 0.5vmax;
+}
+
+.m3{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center; 
+    /* background-color: yellow; */
+}
+
+.m3 h1{
+    color: white;
+    font-size: 1.5vmax;
+}
+
+.m3 h1 a{
+   color: white;
+   text-decoration: none;
+} 
+
+.m3 h1 a:hover{
+    background-color: #FFC303;
+    transition: all ease 0.4sec;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.m3 p{
+    color: white;
+    font-size: 0.5vmax;
+}
+
+.m4{
+    width: 17%;
+    height: 100%;
+    
+    /* background-color: yellow; */
+}
+
+.m4 h1{
+    margin-top: 2.2vmax;
+    color: white;
+    font-size: 1.5vmax;
+}
+
+.m4 h1 a{
+    color: white;
+    text-decoration: none;
+ } 
+
+.m4 h1 a:hover{
+   background-color: #FFC303;
+    transition: all ease 0.4sec;
+    cursor: pointer;
+/* border-bottom: 3px solid #FFC303 ; */
+text-decoration: underline;
+}
+
+.footer{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0.5vmax;
+    background-color: rgba(255, 255, 255, 0.148);
+}
+
+.n1{
+    width: 20%;
+    height: 100%;
+display: flex;
+justify-content: center;
+/* background-color: red; */
+}
+
+.n1 h1{
+    color: white;
+    margin-top: 1.5vmax;
+font-size: 1.2vmax;
+text-align: center;
+}
+
+
+.n2{
+    width: 50%;
+    height: 100%;
+    /* background-color: saddlebrown; */
+}
+
+.n2 input{
+    padding: 0.8vmax 1vmax;
+    border: none;
+    border-radius: 0.3vmax;
+    margin-top: 1.8vmax;
+}
+
+.n2 span button{
+    padding: 0.6vmax 1vmax;
+    color: royalblue;
+    margin-top: 0.8vmax;
+    border: none;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.n2 span button i{
+    color: green;
+}
+
+.n3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-top: 1vmax;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.nn i{
+    font-size: 2vmax;
+    border-radius: 0.3vmax;
+}
+
+.nn1 i{
+    font-size: 2vmax;
+    border-radius: 0.3vmax;
+
+}
+
+.nn1 a i{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nn i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.nn1 i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/* =====================page6 end ========================= */
+
+/*responsive start  */
+
+@media (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,body{
+        width: 100%;
+        height: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .page1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #2562D8;
+    }
+    .l-box{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: brown; */
+    }
+    
+    .mid-p{
+        width: 50%;
+        height: 8%;
+        margin-left: 5vmax;
+    /* border-radius: 0.5vmax; */
+    display: flex;
+    border: 2px solid white;
+    justify-content: space-between;
+        background-color: #2562D8;
+    }
+    
+    .mid-p button{
+        font-size: 0.9vmax;
+        /* border-radius: 0.5vmax; */
+        padding: 0 30px;
+        object-fit: cover;
+        border: none;
+        background-color: #4abce9;
+    }
+    
+    .l-box h2{
+        margin-left: 5vmax;
+        font-size: 2vmax;
+        color: white;
+        letter-spacing: 0.1vmax;
+    }
+    
+    .l-box h2 span:hover{
+        color: #FFC303;
+        cursor: none;
+        text-decoration: underline;
+    }
+    
+    .l-box p{
+        margin-left: 5vmax;
+        font-size: 1vmax;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 0.1vmax;
+    }
+    
+    .l-box h1{
+        margin-left: 5vmax;
+        font-size: 4vmax;
+        color: white;
+        letter-spacing: 0.1vmax;
+    }
+    
+    .l-box span button{
+        font-size: 1.5vmax;
+        margin-left: 5vmax;
+        color: rgba(0, 0, 0, 0.682);
+        font-weight: 500;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 0.5vmax;
+        background-color: #FFC303;
+        padding: 0.7vmax 1.5vmax;
+    }
+    
+    
+    .r-box{
+        width: 55%;
+        height: 120%;
+        background-image: url(page1\ pic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        margin-left: 25%;
+        z-index: 99;
+        background-position: center;
+        /* background-color: black; */
+    }
+    
+    /* ============page1 end========================== */
+    
+    .page3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #2562D8;
+    }
+    
+    .l-block{
+        width: 42%;
+        height: 65%;
+        background-image: url(page\ 3\ pic.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    }
+    .r-block{
+        width: 30%;
+        height: 85%;
+        /* margin-top: -5%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: #FFC303; */
+    }
+    
+    .png{
+        width: 100%;
+        height: 40%;
+        /* background-color: red; */
+    }
+    
+    .png p{
+       font-size: 0.5vmax;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 1vmax;
+        color: white;
+    }
+    
+    .r-block h1{
+        font-size: 2vmax;
+       color: white; 
+       margin-top: 2vmax;
+    }
+    
+    .r-block p{
+        font-size: 1.5vmax;
+        color: white;
+    }
+    
+    
+    
+    .btns button{
+        padding: 0.2vmax 0.6vmax;
+        border-radius: 0.5vmax;
+        border: none;
+        display: flex;
+        gap: 40px;
+    }
+    
+    
+    span button{
+        font-size: 1.2vmax;
+        font-weight: 700;
+        padding: 0.8vmax 1.2vmax;
+        border-radius: 0.5vmax;
+        color: rgba(0, 0, 0, 0.618);
+        background-color: #FFC303;
+        box-shadow: 2px 3px 5px;
+    }
+    
+    /* =========page3 end====================== */
+    
+    .page4{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #2562D8;
+    }
+    
+    .page4 h1{
+        font-size: 3vmax;
+        color: white;
+        text-align: center;
+    }
+    
+    .page4 p{
+        font-size: 1vmax;
+        font-weight: 100;
+        color: white;
+        text-align: center;
+    }
+    
+    /* ================page4 end ========================= */
+    
+    .page5{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4vmax;
+            background-color: #2562D8;
+    }
+    
+    .page5 nav{
+        width: 50%;
+        height: 10%;
+        border-bottom: 2px solid #dadada;
+    }
+    
+    .page5 nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .page5 nav ul li{
+        font-size: 1.6vmax;
+        color: white;
+        font-weight: 100;
+        gap: 30px;
+        list-style-type: none;
+    }
+    
+    .page5 nav ul li:hover{
+        color: black;
+        cursor: pointer;
+        border-bottom: 2px solid #dadada;
+        transition: all ease 0.3sec;
+    }
+    
+    .pic{
+        width: 70%;
+        height: 85%;
+        object-fit: cover;
+    }
+    
+    .pic img{
+        width: 90%;
+        height: 70%;
+    
+    }
+    
+    /* =====================page 5 end========================= */
+    
+    .page6{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #2562D8;
+    
+    }
+    
+    .logodiv{
+        width: 60%;
+        height: 30%;
+        display: flex;
+        /* justify-content: space-between; */
+        border-radius: 0.5vmax;
+        background: transparent;
+        border: 2px solid white;
+    }
+    
+    .lobo{
+        width: 17%;
+        height: 100%;
+           border-radius: 0.3vmax;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    
+    .lobo img{
+    margin-top: 5vmax;
+    }
+    
+    .m1{
+        width: 17%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center; 
+    margin-left: 2vmax;
+       /* background-color: yellow; */
+    }
+    
+    .m1 h1{
+        color: white;
+        font-size: 1.5vmax;
+    }
+    
+    .m1 h1:hover{
+        color: #FFC303;
+        transition: all ease 0.4sec;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .m1 p{
+        color: white;
+        font-size: 0.5vmax;
+    }
+    
+    .m2{
+        width: 17%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center; 
+        /* background-color: yellow; */
+    }
+    
+    .m2 h1{
+        color: white;
+        font-size: 1.5vmax;
+    }
+    
+    .m2 h1:hover{
+        color: #FFC303;
+        transition: all ease 0.4sec;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .m2 p{
+        color: white;
+        font-size: 0.5vmax;
+    }
+    
+    .m3{
+        width: 17%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center; 
+        /* background-color: yellow; */
+    }
+    
+    .m3 h1{
+        color: white;
+        font-size: 1.5vmax;
+    }
+    
+    .m3 h1:hover{
+        color: #FFC303;
+        transition: all ease 0.4sec;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .m3 p{
+        color: white;
+        font-size: 0.5vmax;
+    }
+    
+    .m4{
+        width: 17%;
+        height: 100%;
+        
+        /* background-color: yellow; */
+    }
+    
+    .m4 h1{
+        margin-top: 4vmax;
+        color: white;
+        font-size: 1.5vmax;
+    }
+    
+    .m4 h1:hover{
+        color: #FFC303;
+        transition: all ease 0.4sec;
+        cursor: pointer;
+    /* border-bottom: 3px solid #FFC303 ; */
+    text-decoration: underline;
+    }
+    
+    .footer{
+        width: 60%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        border-radius: 0.5vmax;
+        background-color: rgba(255, 255, 255, 0.148);
+    }
+    
+    .n1{
+        width: 20%;
+        height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    }
+    
+    .n1 h1{
+        color: white;
+        margin-top: 1.5vmax;
+    font-size: 1vmax;
+    text-align: center;
+    }
+    
+    
+    .n2{
+        width: 100%;
+        height: 100%;
+        /* background-color: saddlebrown; */
+    }
+    
+    .n2 input{
+        padding: 0.8vmax 1vmax;
+        border: none;
+        border-radius: 0.3vmax;
+        margin-top: 1.8vmax;
+    }
+    
+    .n2 span button{
+        padding: 0.6vmax 1vmax;
+        color: royalblue;
+        margin-top: 0.8vmax;
+        border: none;
+        background-color: #fff;
+        box-shadow: none;
+    }
+    
+    .n2 span button i{
+        color: green;
+    }
+    
+    .n3{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        margin-top: 1vmax;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+    
+    .nn i{
+        font-size: 2vmax;
+        border-radius: 0.3vmax;
+    }
+    
+    .nn1 i{
+        font-size: 2vmax;
+        border-radius: 0.3vmax;
+    
+    }
+    
+    .nn i:hover{
+        cursor: pointer;
+        color: white;
+    }
+    
+    .nn1 i:hover{
+        cursor: pointer;
+        color: white;
+    }
+    
+    /* =====================page6 end ========================= */
+    
+}
